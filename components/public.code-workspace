@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "public",
+			"path": "../../../Downloads/awwwards_public/public"
+		},
+		{
+			"name": "awwwards",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
