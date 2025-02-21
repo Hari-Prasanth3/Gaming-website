@@ -29,17 +29,19 @@ const About = () => {
         <div className='relative mb-8 mt-36 flex flex-col items-center gap-5'>
             <h2>Welcome to Zentry</h2>
             <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="Disc<b>o</b>ver the w<b>o</b>rld <br /> of s<pid<b>e</b>rma<b>n</b>"
           containerClass="mt-5 !text-black text-center"
+          
         />         
             <div className='about-subtext'>
-                <p>the Game to Games begins-your life, now an epic MMORPG</p>
-                <p>Zentry unites every player from countries games and platform </p>
+                
+                <p>Dive Into The Dark World</p>
+                {/* <p>Zentry unites every player from countries games and platform </p> */}
             </div>
         </div>
         <div className='h-dvh w-screen' id='clip'>
             <div className='mask-clip-path about-image'>
-                <img src="img/about.webp" alt="background"
+                <img src="img/about-1.webp" alt="background"
                 className='absolute left-0 top-0 size-full object-cover' />
             </div>
         </div>
